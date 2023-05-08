@@ -1,0 +1,30 @@
+package StrategyDesignPattern.YouTube;
+
+//https://www.youtube.com/watch?v=-NCgRD9-C6o&list=PLF206E906175C7E07&index=3
+//Derek Banas
+public class Dog extends Animal{
+
+         
+
+        public void digHole(){
+  
+            System.out.println("Dug a hole");
+        }
+  
+        public Dog(){
+            super();
+            setSound("Bark");
+            // We set the Flys interface polymorphically
+            // This sets the behavior as a non-flying Animal
+            flyingType = new CantFly();
+        }
+        /* BAD
+        * You could override the fly method, but we are breaking
+        * the rule that we need to abstract what is different to
+        * the subclasses
+        public void fly(){
+            System.out.println("I can't fly");
+        }
+        */
+    }
+    
