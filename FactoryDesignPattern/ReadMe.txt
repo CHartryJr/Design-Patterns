@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=ub0DXaeV6hA&list=PLF206E906175C7E07&index=5
+Derek Banas - Factory Design Pattern
+The Factory Design Pattern  uses a tactic to better organize polymorphism use cases. The factory class
+uses a method that returns one of serveral possible classes that share a common super class.
+the classes are choosen at run time.
