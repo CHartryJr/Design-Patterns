@@ -1,4 +1,4 @@
-package ObserverDesignPatter.YouTube;
+package ObserverDesignPattern.YouTube;
 
 import java.text.DecimalFormat;
 

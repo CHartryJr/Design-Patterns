@@ -1,4 +1,4 @@
-package ObserverDesignPatter.YouTube;
+package ObserverDesignPattern.YouTube;
 
 // Represents each Observer that is monitoring changes in the subject
 

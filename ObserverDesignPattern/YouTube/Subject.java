@@ -1,4 +1,4 @@
-package ObserverDesignPatter.YouTube;
+package ObserverDesignPattern.YouTube;
 
 // This interface handles adding, deleting and updating
  
