@@ -9,3 +9,5 @@ allows you to create families of related objects without specifiying a concrete 
 you can dynamically change objcects  and model anything you want and have them interact through common
 interfaces
 downside things can get very complicated.
+Other look on this design pattern:
+The classes variable to a object are abstract objects that is then used to create the executable object
