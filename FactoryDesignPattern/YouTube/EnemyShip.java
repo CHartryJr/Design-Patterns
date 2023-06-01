@@ -1,4 +1,4 @@
-package YouTube;
+
 public abstract class EnemyShip {
 	
 	private String name;

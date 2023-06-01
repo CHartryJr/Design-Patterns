@@ -1,4 +1,4 @@
-package YouTube;
+
 public class UFOEnemyShip extends EnemyShip {
 	
 	public UFOEnemyShip(){

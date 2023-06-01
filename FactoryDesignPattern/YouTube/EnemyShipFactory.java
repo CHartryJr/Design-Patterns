@@ -1,4 +1,4 @@
-package YouTube;
+
 
 // This is a factory thats only job is creating ships
 // By encapsulating ship creation, we only have one
@@ -29,7 +29,7 @@ public class EnemyShipFactory{
 			
 			return new BigUFOEnemyShip();
 			
-		} else return null;
+		} else return newShip;
 		
 	}
 	

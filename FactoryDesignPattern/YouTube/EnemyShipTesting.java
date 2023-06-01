@@ -1,4 +1,4 @@
-package YouTube;
+
 
 import java.util.Scanner;
 
@@ -13,22 +13,22 @@ public class EnemyShipTesting {
 		
 		EnemyShip theEnemy = null;
 		
-		Scanner userInput = new Scanner(System.in);
-		
-		System.out.print("What type of ship? (U / R / B)");
-		
-		if (userInput.hasNextLine()){
+		try (Scanner userInput = new Scanner(System.in)) {
+			System.out.print("What type of ship? (U / R / B)");
 			
-			String typeOfShip = userInput.nextLine();
-		
-			theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+			if (userInput.hasNextLine()){
+				
+				String typeOfShip = userInput.nextLine();
 			
-			if(theEnemy != null){
+				theEnemy = shipFactory.makeEnemyShip(typeOfShip);
 				
-				doStuffEnemy(theEnemy);
-				
-			} else System.out.print("Please enter U, R, or B next time");
-		
+				if(theEnemy != null){
+					
+					doStuffEnemy(theEnemy);
+					
+				} else System.out.print("Please enter U, R, or B next time");
+			
+			}
 		}
 		
 		/*
