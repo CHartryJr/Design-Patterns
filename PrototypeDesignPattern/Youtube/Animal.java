@@ -1,3 +1,5 @@
+package PrototypeDesignPattern.Youtube;
+
 // By making this class cloneable you are telling Java
 // that it is ok to copy instances of this class
 // These instance copies have different results when
