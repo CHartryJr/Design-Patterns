@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EnemyShipTesting",
+            "request": "launch",
+            "mainClass": "EnemyShipTesting",
+            "projectName": "Design-Patterns_1ca56523"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "program": "DIYAppcontroller.java",
+            "args": [
+                "6789"
+            ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "program": "DIYAppWorker.java",
+            "args": [
+                "localhost",
+                "6789"
+            ]
+        }
+    ]
+}
