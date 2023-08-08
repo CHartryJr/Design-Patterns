@@ -1,4 +1,3 @@
-package AbstractFactoryDesignPattern.YouTube;
 
 public class UFOEnemyShip extends EnemyShip{
 	

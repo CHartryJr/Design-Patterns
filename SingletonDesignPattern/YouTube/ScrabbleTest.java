@@ -1,4 +1,3 @@
-package SingletonDesignPattern.YouTube;
 
 import java.util.LinkedList;
 

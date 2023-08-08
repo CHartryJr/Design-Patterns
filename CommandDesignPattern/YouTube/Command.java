@@ -1,4 +1,4 @@
-package CommandDesignPattern.YouTube;
+
 
 // Each command you want to issue will implement 
 // the Command interface

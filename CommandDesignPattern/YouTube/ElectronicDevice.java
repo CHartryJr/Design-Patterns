@@ -1,4 +1,4 @@
-package CommandDesignPattern.YouTube;
+
 
 public interface ElectronicDevice {
 	

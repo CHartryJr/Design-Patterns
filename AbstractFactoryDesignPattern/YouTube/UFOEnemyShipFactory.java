@@ -1,4 +1,3 @@
-package AbstractFactoryDesignPattern.YouTube;
 
 // This factory uses the EnemyShipFactory interface
 // to create very specific UFO Enemy Ship
