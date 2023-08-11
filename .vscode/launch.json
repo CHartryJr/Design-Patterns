@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MVCCalculator",
+            "request": "launch",
+            "mainClass": "ModelVeiwController.Youtube.MVCCalculator",
+            "projectName": "Assn(Youtube)_Design Patterns_2d68e055"
+        },
+        {
+            "type": "java",
             "name": "EnemyShipTesting",
             "request": "launch",
             "mainClass": "EnemyShipTesting",
