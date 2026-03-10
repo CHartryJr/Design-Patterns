@@ -20,18 +20,29 @@ public class TestRobotBuilder {
 		// The engineer returns the right robot based off of the spec
 		// sent to it on line 11
 		
-		Robot firstRobot = robotEngineer.getRobot();
+		Robot Robot = robotEngineer.getRobot();
 		
 		System.out.println("Robot Built");
+		System.out.println("Robot Head Type: " + Robot.getRobotHead());
+		System.out.println("Robot Torso Type: " + Robot.getRobotTorso());
+		System.out.println("Robot Arm Type: " + Robot.getRobotArms());
+		System.out.println("Robot Leg Type: " + Robot.getRobotLegs());
+
+
+		OldRobotBuilder2 arb = new OldRobotBuilder2();
+		arb.head("Long Head wide Eyes")
+		.torso("Wide and Strot")
+		.arms("wide and bulk")
+		.leg("Short");
 		
-		System.out.println("Robot Head Type: " + firstRobot.getRobotHead());
-		
-		System.out.println("Robot Torso Type: " + firstRobot.getRobotTorso());
-		
-		System.out.println("Robot Arm Type: " + firstRobot.getRobotArms());
-		
-		System.out.println("Robot Leg Type: " + firstRobot.getRobotLegs());
-		
+		Robot = arb.buildRobot();
+
+		System.out.println("New Robot Built");
+		System.out.println("Robot Head Type: " + Robot.getRobotHead());
+		System.out.println("Robot Torso Type: " + Robot.getRobotTorso());
+		System.out.println("Robot Arm Type: " + Robot.getRobotArms());
+		System.out.println("Robot Leg Type: " + Robot.getRobotLegs());
+
 	}
 	
 }

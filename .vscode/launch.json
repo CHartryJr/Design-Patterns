@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestCloning",
+            "request": "launch",
+            "mainClass": "TestCloning",
+            "projectName": "Design-Patterns_79ee1b72"
+        },
+        {
+            "type": "java",
+            "name": "TestCalcChain",
+            "request": "launch",
+            "mainClass": "ChainOfResponsibilityDesignPattern.YouTube.TestCalcChain",
+            "projectName": "Design-Patterns_79ee1b72"
+        },
+        {
+            "type": "java",
+            "name": "TestRobotBuilder",
+            "request": "launch",
+            "mainClass": "BuilderDesignPattern.YouTube.TestRobotBuilder",
+            "projectName": "Design-Patterns_79ee1b72"
+        },
+        {
+            "type": "java",
+            "name": "EnemyShipTesting",
+            "request": "launch",
+            "mainClass": "EnemyShipTesting",
+            "projectName": "Design-Patterns_79ee1b72"
+        },
+        {
+            "type": "java",
             "name": "MVCCalculator",
             "request": "launch",
             "mainClass": "ModelVeiwController.Youtube.MVCCalculator",

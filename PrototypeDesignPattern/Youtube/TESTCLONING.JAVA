@@ -1,6 +1,8 @@
-public class TestCloning {
+public class TestCloning 
+{
 	
-	public static void main(String[] args){
+	public static void main(String[] args)
+	{
 		
 		// Handles routing makeCopy method calls to the 
 		// right subclasses of Animal

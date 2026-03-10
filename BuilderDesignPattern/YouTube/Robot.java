@@ -9,6 +9,16 @@ public class Robot implements RobotPlan{
 	private String robotArms;
 	private String robotLegs;
 	
+	public Robot() {
+	}
+
+	protected Robot(String robotHead, String robotTorso, String robotArms, String robotLegs) {
+		this.robotHead = robotHead;
+		this.robotTorso = robotTorso;
+		this.robotArms = robotArms;
+		this.robotLegs = robotLegs;
+	}
+
 	public void setRobotHead(String head) {
 		
 		robotHead = head;
@@ -43,7 +53,5 @@ public class Robot implements RobotPlan{
 	}
 	
 	public String getRobotLegs(){ return robotLegs; }
-	
-	
 	
 }
